@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="row">
+    <!-- la que se tendria que repetir con el *ngFor -->
+    <div class="col-4">
+
+      <div  class="card" style="width: 20rem;">
+        <img [src]="photo.url" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">{{photo.title}}</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a [routerLink]="'/photos'" class="btn btn-primary">Back to photos</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</div>
